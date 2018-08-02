@@ -1,0 +1,47 @@
+.wrap{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+
+.tag-wrap{
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.link-style{
+	text-decoration: none;
+	color: black;
+}
+.link-style:hover{
+	color: blue;
+}
+
+.tag-info-wrap{
+	padding: 10px 0 0 20px;
+}
+.tag-title{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 10px 0;
+}
+.tag-title span{
+	text-transform: uppercase;
+}
+.tag-mentions-wrap{
+	display: flex;
+	flex-direction: column;
+}
+.tag-mentions-info{
+	margin: 3px 0;
+}
+.mentions-wrap{
+	display: flex;
+	flex-direction: column;
+}
+.type-pages-info{
+	display: flex;
+	flex-direction: column;
+}
